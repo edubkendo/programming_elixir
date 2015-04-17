@@ -1,5 +1,5 @@
 defmodule MyList do
-	def len(arr), do: _len(arr, 0)
+  def len(arr), do: _len(arr, 0)
 
   defp _len([], count), do: count
   defp _len([_h | t], count), do: _len(t, count + 1)

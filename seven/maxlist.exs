@@ -1,5 +1,5 @@
 defmodule MyList do
-	def max(list), do: _max(list, 0)
+  def max(list), do: _max(list, 0)
 
   defp _max([], maximum), do: maximum
   defp _max([h|t], maximum) when h <= maximum do
